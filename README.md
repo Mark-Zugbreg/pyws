@@ -1,11 +1,11 @@
 # instalasi pertama kali
 ```php
-pkg update && pkg upgrade -y && apt-get install -y sshpass openssh netcat-openbsd git python && rm -rf pyws && git clone https://github.com/mark-zugbreg/pyws
+pkg update && pkg upgrade -y && apt-get install -y sshpass openssh netcat-openbsd git python && rm -rf ws && git clone https://github.com/mark-zugbreg/ws
 ```
 
 # if done
 ```php
-cd pyws
+cd ws
 pyhon run.py
 ```
 
