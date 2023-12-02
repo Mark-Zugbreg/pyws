@@ -1,12 +1,16 @@
-# install
+# instalasi pertama kali
 ```php
-$ pkg update && pkg upgrade -y
-$ pkg install python -y
-$ pkg install sshpass -y
-$ pkg install openssh -y
-$ pkg install netcat-openbsd -y
-$ pkg install git -y
-$ git clone https://github.com/mark-zugbreg/pyws
-$ cd pyws
-$ python run.py
+pkg update && pkg upgrade -y && apt-get install -y sshpass openssh netcat-openbsd git python && rm -rf pyws && git clone https://github.com/mark-zugbreg/pyws
+```
+
+# if done
+```php
+cd pyws
+pyhon run.py
+```
+
+# ganti ssh
+```php
+contoh:
+echo host:80@username:password > ssh.txt
 ```
