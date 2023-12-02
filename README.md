@@ -14,3 +14,8 @@ pyhon run.py
 contoh:
 echo host:80@username:password > ssh.txt
 ```
+
+# setting tun2tap
+```php
+lihat gambar di folder setting-tun2tap
+```
